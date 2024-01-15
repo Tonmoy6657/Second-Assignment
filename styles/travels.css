@@ -156,31 +156,84 @@ nav {
     margin-top: 30px;
     width: 800px;
 }
-.banner-input input{
+
+.banner-input input {
     width: 174px;
     height: 38px;
     align-items: center;
     margin-left: 20px;
 
 }
-.when{
+
+.when {
     position: relative;
 }
-.when img{
+
+.when img {
     position: absolute;
     left: 170px;
     bottom: 12px;
 }
 
-.type{
+.type {
     position: relative;
 }
-.type img{
+
+.type img {
     position: absolute;
     right: 10px;
     bottom: 12px;
 }
+
 /* banner section style end */
+
+
+
+
+/* destination section style start */
+
+.destination-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.destination-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-description {
+    color: #131318b3;
+    padding-bottom: 24px;
+}
+
+.indonesia {
+    width: 573px;
+    height: 300px;
+}
+
+.row {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.row-img {
+    position: relative;
+}
+
+.place {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+/* destination section style end */
 
 
 
@@ -219,10 +272,12 @@ nav {
     .menu a {
         display: none;
     }
-    .banner-container{
+
+    .banner-container {
         text-wrap: wrap;
         text-align: left;
     }
+
     .banner-input {
         display: flex;
         flex-direction: column;
@@ -230,5 +285,8 @@ nav {
         margin-top: 0;
         gap: 10px;
     }
-    
+    .row{
+        flex-wrap: wrap;
+    }
+
 }
