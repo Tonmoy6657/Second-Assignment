@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 
 * {
-   main, header{
+
+    main,
+    header {
         font-family: 'Mulish', sans-serif;
         max-width: 1170px;
         margin: 0 auto;
@@ -48,7 +50,7 @@ nav {
 }
 
 .adventure {
-    color: #131318;
+    color: #171813;
 }
 
 .company-nav-text a {
@@ -135,7 +137,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: black;
+    color: #FFF;
     width: 100%;
 
 }
@@ -143,7 +145,7 @@ nav {
 .banner-title {
     font-size: 4rem;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 15px;
 }
 
 .banner-input {
@@ -188,7 +190,34 @@ nav {
 /* banner section style end */
 
 
+/* popular-tour section style start */
+.popular-tour {
+    display: flex;
+    margin-top: 100px;
+    gap: 53px;
+}
 
+.popular-tour-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+.popular-tour-description {
+    color: #131318b3;
+}
+
+.popular-tour-content button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+/* popular-tour section style end */
 
 /* destination section style start */
 
@@ -258,7 +287,6 @@ nav {
     border: 1px solid #fbb56333;
     background: #fbb5630d;
     width: 573px;
-
 }
 
 .box h1 {
@@ -269,7 +297,6 @@ nav {
 
 .box p {
     color: #5A5A5D;
-
 }
 
 .choose-us-box {
@@ -312,101 +339,146 @@ nav {
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
+    color: #FFF;
 }
 
-.newsletter-img{
+.newsletter-img {
     width: 672px;
     height: 422px;
     position: relative;
 }
-.discounts{
+
+.discounts {
     /* margin: 0;
     padding: 0; */
     width: 324px;
     height: 120px;
-border-radius: 16px;
-background: #FF5400;
-text-align: center;
-position: absolute;
-left: 50%;
-bottom: 12%;
-transform: rotate(-19.628deg);
-color: #FFF;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    transform: rotate(-19.628deg);
+    color: #FFF;
 }
-.discounts-address{
+
+.discounts-address {
     font-size: 1.5rem;
 }
-.discounts-amount{
-font-size: 2rem;
-font-weight: 800;
+
+.discounts-amount {
+    font-size: 2rem;
+    font-weight: 800;
 }
+
 /* newsletter section style end */
+
+/* client-feedback style start */
+
+.client-feedback{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    
+}
+.client-feedback-description{
+    text-align: center;
+    padding-top: 200px;
+}
+.client-feedback-description h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+.client-feedback-description p{
+    color: #5A5A5D;
+}
+.client-feedback-description button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    width: 230px;
+    height: 50px;
+}
+
+.client-feedback-review{
+    display: grid;
+    gap:15px
+}
+.card{
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    background-color: #ffffff ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0,  0, 0, 0.2);
+    cursor: pointer;
+}
+.card img{
+    max-width: 75px;
+    border-radius: 100%;
+}
+.card-content p{
+    font-style: italic;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+.card-content h4{
+    text-align: right;
+    color: #ff226f;
+    font-weight: 500;
+}
+/* client-feedback style end */
+
 
 /* footer style start */
 
-/* footer{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 502px;
-   
-} */
-footer{
+footer {
     max-width: 1440px;
     background: rgba(19, 19, 24, 0.05);
 }
-.footer{
+
+.footer {
     text-align: center;
-    
     height: 500px;
-    
-    
 }
-.footer-title{
+
+.footer-title {
     display: flex;
-   margin-top: 100px;
-   text-align: center;
-   justify-content: center;
-   padding-top: 130px;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
 }
-.footer-description{
+
+.footer-description {
     color: #5A5A5D;
     margin-top: 15px;
     margin: 33px;
 }
-.social-icon{
+
+.social-icon {
     margin-top: 32px;
     margin-bottom: 40px;
 }
 
-.all-right{
+.all-right {
     color: #131318;
 }
 
+/* footer style end */
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* for mobile devices */
 
 @media screen and (max-width: 600px) {
-*{
-    margin-left: 10px;
-}
     .hamburger,
     .toggle-menu {
         display: block;
@@ -445,22 +517,34 @@ footer{
     .row {
         flex-wrap: wrap;
     }
-   .bandarban{
-    width: 550px;
-   }
-.newsletter{
-    flex-direction: column;
-    /* max-width: 600px; */
-}
-.newsletter-content{
-    padding-top: 0;
-}
-.newsletter-img img{
-    width: 550px;
-}
-.discounts{
-    position: absolute;
-left: 30%;
-bottom: 30%;
-}
+
+    .bandarban {
+        width: 550px;
+    }
+
+    .newsletter,
+    .popular-tour 
+     {
+        flex-direction: column;
+    }
+
+    .newsletter-content {
+        padding-top: 0;
+    }
+
+    .newsletter-img img {
+        width: 550px;
+    }
+
+    .discounts {
+        position: absolute;
+        left: 30%;
+        bottom: 30%;
+    }
+    .client-feedback-review{
+grid-template-columns: repeat(1,1fr);
+    }
+    .client-feedback{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
