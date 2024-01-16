@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 
 * {
-    body {
+   main, header{
         font-family: 'Mulish', sans-serif;
         max-width: 1170px;
         margin: 0 auto;
@@ -344,7 +344,44 @@ font-weight: 800;
 
 /* footer style start */
 
+/* footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 502px;
+   
+} */
+footer{
+    max-width: 1440px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer{
+    text-align: center;
+    
+    height: 500px;
+    
+    
+}
+.footer-title{
+    display: flex;
+   margin-top: 100px;
+   text-align: center;
+   justify-content: center;
+   padding-top: 130px;
+}
+.footer-description{
+    color: #5A5A5D;
+    margin-top: 15px;
+    margin: 33px;
+}
+.social-icon{
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
 
+.all-right{
+    color: #131318;
+}
 
 
 
@@ -367,7 +404,9 @@ font-weight: 800;
 
 
 @media screen and (max-width: 600px) {
-
+*{
+    margin-left: 10px;
+}
     .hamburger,
     .toggle-menu {
         display: block;
