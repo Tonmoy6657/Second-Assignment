@@ -2,8 +2,7 @@
 
 * {
 
-    main,
-    header {
+    body {
         font-family: 'Mulish', sans-serif;
         max-width: 1170px;
         margin: 0 auto;
