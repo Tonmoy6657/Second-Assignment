@@ -129,7 +129,7 @@ nav {
 /* banner section style start */
 
 .banner-container {
-    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     height: 500px;
     display: flex;
     flex-direction: column;
